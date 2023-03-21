@@ -3,7 +3,7 @@ import os
 import shutil
 from tqdm import tqdm
 import logging
-from src.utils.common import read_yaml, save_json
+from utils.common import read_yaml, save_json
 import joblib
 import numpy as np
 import sklearn.metrics as metrics

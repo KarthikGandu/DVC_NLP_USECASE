@@ -3,7 +3,7 @@ import os
 import shutil
 from tqdm import tqdm
 import logging
-from src.utils.common import read_yaml, create_directories
+from utils.common import read_yaml, create_directories
 import joblib
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier

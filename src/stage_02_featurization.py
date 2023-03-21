@@ -3,8 +3,8 @@ import os
 import shutil
 from tqdm import tqdm
 import logging
-from src.utils.common import read_yaml, create_directories, get_df
-from src.utils.featurize import save_matrix
+from utils.common import read_yaml, create_directories, get_df
+from utils.featurize import save_matrix
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
